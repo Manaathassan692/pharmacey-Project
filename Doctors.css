@@ -1,0 +1,387 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.top{
+    display: flex;
+    background-color: #1C7DD1;
+    height: 40px;
+}
+.top p{
+    font-size: 1.1em;
+    color: white;
+    padding-left: 33%;
+    font-style: normal;
+    padding-top: 10px;
+}
+.btn{
+    padding-left: 9px;
+    padding-top: 8px;  
+}
+.Learn{
+    border: 1px solid white;
+    height: 25px;
+    width: 110px;
+    background-color: #1C7DD1;
+    color: white;
+}
+.btn button:hover{
+    background-color: blue;
+    border: 1px solid blue;
+    cursor: pointer;
+}
+.top1{
+    display: flex;
+    justify-content: space-between;
+    line-height: 30px;
+}
+.mains{
+    padding-left: 30px;
+    padding-top: 20px;
+
+}
+.mains ul{
+    display: flex;
+    gap: 40px;
+}
+.mains i{
+    color: #1C7DD1;
+    margin-right: 8px;
+}
+.mains ul li{
+    list-style: none;
+}
+.mains ul li:hover{
+    color: #1C7DD1;
+    cursor: pointer;
+
+}
+.main1{
+    padding-top: 20px;
+    padding-right: 60px;
+}
+.main1 ul{
+    display: flex;
+    gap: 40px;
+    
+}
+.main1 ul li{
+    list-style: none;
+    
+}
+.main1 ul li:hover{
+    color: #1C7DD1;
+    cursor: pointer;
+}
+.hr{
+    padding-top: 20px;
+    color: grey;
+    height: 0.01px;
+    border: none;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    line-height: 30px;
+    
+}
+.header img{
+    width: 190px;
+    height: 80px;
+    padding-top: 20px;
+    padding-left: 28px;
+}
+.header span{
+    color: #1C7DD1;
+}
+.header h1{
+    font-size: 2em;
+    padding-top: 20px;
+
+}
+.main2{
+    padding-top: 30px;
+}
+.main2 ul{
+    display: flex;
+    gap: 40px;
+
+}
+.main2 ul li{
+    list-style: none;
+    font-size: 1.4em;
+}
+.main2 ul li:hover{
+    color: #1C7DD1;
+    cursor: pointer;
+}
+.btn1{
+    padding-right: 90px;
+    padding-top: 28px;
+
+}
+.Get{
+    height: 40px;
+    width: 190px;
+    border-radius: 10px;
+    border: none;
+    background-color: #1C7DD1;
+    color: white;
+}
+.btn1 button:hover{
+    background-color: blue;
+    cursor: pointer;
+    
+}
+.section1{
+    background-image: url(https://lh3.googleusercontent.com/proxy/3UP5YRBX-hyd9uIPcc6P9fprYjoSEqt7hGbymD7nzSceB8n6CAPey7Oz2j53a20d96r6t4xThtGhkzrINJUml4SJ4E6OlM7kYxArOLQoAbwJNuOLyGfp_O-wYlowWoL6u1bFk6YkYJA);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    padding-top: 90px;
+}
+.section1 h1{
+    padding-top: 110px;
+    padding-left: 90px;
+    font-size: 4em;
+    color: #2E4057;
+}
+.all p{
+    padding-left: 90px;
+    padding-top: 15px;
+}
+.btn2{
+
+}
+.contact{
+    height: 40px;
+    width: 120px;
+    border-radius: 10px;
+    border: none;
+    background-color: #1C7DD1;
+    color: white;
+    margin-left: 90px;
+    margin-top: 20px;
+
+}
+.more{
+    height: 40px;
+    width: 120px;
+    border-radius: 10px;
+    border: 1px solid #1C7DD1;
+    color: #1C7DD1;
+    margin-left: 10px;
+    font-weight: bold;
+
+}
+.btn2 button:hover{
+    background-color: #5baef7;
+    color: white;
+}
+.hr1{
+    padding-right: 59%;
+    padding-left: 40px;
+    padding-top: 10px;
+    color: #2E4057;
+
+}
+.all1{
+    display: flex;
+}
+.section2{
+    background-color: #1C7DD1;
+    height: 290px;
+    width: 390px;
+    margin-top: 110px;
+    margin-left: 40px;
+    border-radius: 10px;
+}
+.since i{
+    color: white;
+    font-size: 3em;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+.since{
+    
+}
+.since h3{
+    color: white;
+    font-size: 2em;
+    padding-top: 20px;
+    padding-left: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+.since p{
+    color: white;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+.btn3{
+    padding-top: 30px;
+    padding-left: 30px;
+
+}
+.btn3 button:hover{
+    background-color: white;
+    cursor: pointer;
+    color: #1C7DD1;
+}
+.see{
+    height: 40px;
+    width: 160px;
+    border-radius: 10px;
+    border: 1px solid white;
+    color: white;
+    margin-left: 10px;
+    font-weight: bold;
+    background-color: transparent;
+
+    
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.team-section {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #fff;
+    margin-top: 190px;
+}
+
+.team-section h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.team-section p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.team-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.doctor-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.doctor-card img {
+    width: 250px;
+    height: 150px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.doctor-card h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.doctor-card p {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.doctor-card button {
+    background-color: #1C7DD1;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.doctor-card button:hover {
+    background-color: #1C7DD1;
+}
+
+
+.footer{
+    margin-top: 190px;
+}
+.footer-title{
+    text-align: center; 
+    font-size: 3.2rem;
+    margin-bottom: 40px;
+}
+.footer  .btn{
+    width: fit-content;
+    margin: 10px;
+    position: relative;
+    left: 45%;
+
+}
+.sub-footer{
+    background-color: #0074F0;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin-top: 10px;
+   
+    
+}
+.col-1 h1{
+    color: white;
+}
+
+.col-1 p{
+   padding: 10px;
+  
+}
+.col-1 i{
+    padding: 10px;
+    cursor: pointer;
+}
+.col-2 small{
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    cursor: pointer;
+
+}
+.col-3 small{
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    cursor: pointer;
+
+
+}
+.col-4 input{
+    color: #F5F7FA;
+    background-color: #263238;
+    border: none;
+    border: 1px #1d1d1d solid;
+    border-radius: 5px;
+    padding: 8px;
+    margin: 10px;
+}
+.col-4 input:focus{
+    border: none;
+}
+.col-4 i{
+    position: relative;
+    right: 20%;
+}

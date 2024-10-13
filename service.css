@@ -1,0 +1,292 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.top{
+    display: flex;
+    background-color: #1C7DD1;
+    height: 40px;
+}
+.top p{
+    font-size: 1.1em;
+    color: white;
+    padding-left: 33%;
+    font-style: normal;
+    padding-top: 10px;
+}
+.btn{
+    padding-left: 9px;
+    padding-top: 8px;  
+}
+.Learn{
+    border: 1px solid white;
+    height: 25px;
+    width: 110px;
+    background-color: #1C7DD1;
+    color: white;
+}
+.btn button:hover{
+    background-color: blue;
+    border: 1px solid blue;
+    cursor: pointer;
+}
+.top1{
+    display: flex;
+    justify-content: space-between;
+    line-height: 30px;
+}
+.mains{
+    padding-left: 30px;
+    padding-top: 20px;
+
+}
+.mains ul{
+    display: flex;
+    gap: 40px;
+}
+.mains i{
+    color: #1C7DD1;
+    margin-right: 8px;
+}
+.mains ul li{
+    list-style: none;
+}
+.mains ul li:hover{
+    color: #1C7DD1;
+    cursor: pointer;
+
+}
+.main1{
+    padding-top: 20px;
+    padding-right: 60px;
+}
+.main1 ul{
+    display: flex;
+    gap: 40px;
+    
+}
+.main1 ul li{
+    list-style: none;
+    
+}
+.main1 ul li:hover{
+    color: #1C7DD1;
+    cursor: pointer;
+}
+.hr{
+    padding-top: 20px;
+    color: grey;
+    height: 0.01px;
+    border: none;
+}
+.section2{
+    margin-left: 90px;
+    margin-top: 50px;
+    display: flex;
+}
+.left-side h1{
+    font-size: 3em;
+}
+.left-side p{
+    margin-top: 10px;
+}
+.btn1{
+    margin-top: 40px;
+}
+.buton1{
+    min-height: 34px;
+    width: 190px;
+    font-size: 1em;
+    color: white;
+    background-color:#003EB3 ;
+    border-radius: 10px;
+    border: none;
+}
+.btn1 i{
+    font-size: 1em;
+    color: white;
+}
+
+.right-side img{
+    height: 450px;
+    padding-bottom: 10px;
+    mix-blend-mode: multiply;
+    
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    line-height: 30px;
+    
+}
+.header img{
+    width: 190px;
+    height: 80px;
+    padding-top: 20px;
+    padding-left: 28px;
+}
+.header span{
+    color: #1C7DD1;
+}
+.header h1{
+    font-size: 2em;
+    padding-top: 20px;
+
+}
+.main2{
+    padding-top: 30px;
+}
+.main2 ul{
+    display: flex;
+    gap: 40px;
+
+}
+.main2 ul li{
+    list-style: none;
+    font-size: 1.4em;
+}
+.main2 ul li:hover{
+    color: #1C7DD1;
+    cursor: pointer;
+}
+.btn1{
+    padding-right: 90px;
+    padding-top: 28px;
+
+}
+.Get{
+    height: 40px;
+    width: 190px;
+    border-radius: 10px;
+    border: none;
+    background-color: #1C7DD1;
+    color: white;
+}
+.btn1 button:hover{
+    background-color: blue;
+    cursor: pointer;
+    
+}
+
+.section4{
+    background-color: #DDF0FD;
+    width: 100%;
+    height: 120vh;
+    margin-top: 90px;
+
+}
+.flex{
+    display: flex;
+}
+.tops{
+
+}
+.tops h4{
+    text-align: center;
+    color: #2E4057;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 40px;
+    font-size: 1.4em;
+}
+.tops p{
+    text-align: center;
+    padding-top: 14px;
+}
+.tops h1{
+    text-align: center;
+    font-size: 2.8em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 14px;
+}
+.since4{
+    padding-left: 120px;
+
+}
+.since4 i{
+    color: #1C7DD1;
+}
+.since4 h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #2E4057;
+    padding-top: 20px;
+
+}
+.since4 p{
+    padding-top: 10px;
+}
+.section5{
+
+    padding-top: 120px;
+}
+.flex2{
+    display: flex;
+}
+
+.footer{
+    padding-top: 40px;
+}
+.footer-title{
+    text-align: center; 
+    font-size: 3.2rem;
+    margin-bottom: 40px;
+}
+.footer  .btn{
+    width: fit-content;
+    margin: 10px;
+    position: relative;
+    left: 45%;
+
+}
+.sub-footer{
+    background-color: #0074F0;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin-top: 10px;
+   
+    
+}
+.col-1 h1{
+    color: white;
+}
+
+.col-1 p{
+   padding: 10px;
+  
+}
+.col-1 i{
+    padding: 10px;
+    cursor: pointer;
+}
+.col-2 small{
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    cursor: pointer;
+
+}
+.col-3 small{
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    cursor: pointer;
+
+
+}
+.col-4 input{
+    color: #F5F7FA;
+    background-color: #263238;
+    border: none;
+    border: 1px #1d1d1d solid;
+    border-radius: 5px;
+    padding: 8px;
+    margin: 10px;
+}
+.col-4 input:focus{
+    border: none;
+}
+.col-4 i{
+    position: relative;
+    right: 20%;
+}
